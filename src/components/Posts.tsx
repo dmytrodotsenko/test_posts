@@ -19,9 +19,8 @@ function PostsScreen({navigation, route}: PostsScreenProp): JSX.Element {
   const response: TApiResponse = useFetch(`${BASE_URL}/posts`, 'GET');
   const posts = useSelector((state: RootState) => state.main.posts);
   const modal = useSelector((state: RootState) => state.main.modalVisible);
-  // console.log(posts, 'here??');
+
   React.useEffect(() => {
-    // console.log('here');
     if (!response.loading) {
       dispatch(setPosts(response.data));
     }
