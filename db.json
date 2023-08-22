@@ -1,8 +1,56 @@
 {
-    "posts": [
-        {"id": 1,  "title": "First Post", "body": "Description for post"},
-        {"id": 2,  "title": "First Post", "body": "Description for post"},
-        {"id": 3,  "title": "First Post", "body": "Description for post"},
-        {"id": 4,  "title": "First Post", "body": "Description for post"}
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post about Weather",
+      "body": "Weather is so hot today"
+    },
+    {
+      "id": 2,
+      "title": "First Post",
+      "body": "Exploring different topics in this post."
+    },
+    {
+      "id": 3,
+      "title": "New Adventures Await",
+      "body": "Sharing my experiences and thoughts."
+    },
+    {
+      "id": 4,
+      "title": "Tech Trends",
+      "body": "Diving into the latest tech advancements."
+    },
+    {
+      "id": 5,
+      "title": "Travel Diaries",
+      "body": "Recalling my travel adventures around the world."
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "text": "Fantastic post! I really enjoyed reading this."
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "text": "You've nailed the topic! Thanks for the insights."
+    },
+    {
+      "id": 3,
+      "postId": 2,
+      "text": "This is a thought-provoking article. It got me thinking."
+    },
+    {
+      "id": 4,
+      "postId": 3,
+      "text": "Incredible content! You've covered everything in detail."
+    },
+    {
+      "id": 5,
+      "postId": 4,
+      "text": "Your writing style is captivating. Can't wait for more!"
+    }
+  ]
 }
